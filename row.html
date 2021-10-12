@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="Fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dflex row</title>
+
+
+    <style>
+        .row{ 
+            display: flex;
+        }
+
+
+        .child{
+              width: 200px;
+              height: 200px;
+              background-color: rgb(152, 200, 212);
+              border: 2px solid rgb(24, 49, 116);
+            }
+
+
+        .row-revers{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .second{
+            text-align: right;
+        }
+
+        .space-between{
+            display: flex;
+            justify-content:space-between ;
+
+        }
+
+        .third{
+            text-align:center;
+        }
+
+        .space-araund{
+            display: flex;
+            justify-content: space-around;
+        }
+        .forth{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>flex</h1>
+<h2>flex-row</h2>
+    <div class="row">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+    </div>
+    <h2 class="second">flex-row-revers</h2>
+
+    <div class="row-revers">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+    </div>
+<h2 class="third">space-between</h2>
+
+    <div class="space-between">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+    </div>
+
+    <h2 class="forth">space-araund</h2>
+
+    <div class="space-araund">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+
+    </div>
+</body>
+</html>
