@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex box</title>
+
+    <style>
+        .box-100-bg-blue-border2{
+        
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        
+        .d-flex{
+            display: flex;
+        }
+
+        .flex-row-revers{
+            flex-direction: row-reverse;
+        }
+
+    
+        .justfy-content-center{
+            justify-content:center;
+        }
+
+        .justfy-content-space-between{
+            justify-content: space-between;
+        }
+
+        .justfy-content-space-araund{
+            justify-content: space-around;
+         
+        }
+
+        .flex-column{
+            flex-direction: column;
+        }
+        .column-reverse{
+            flex-direction: column-reverse;
+        }
+        .initial{
+            flex-direction: initial;
+        }
+        .inherit{
+            flex-direction: inherit;
+        }
+    </style>
+</head>
+<body>
+
+<h1>flex box</h1>
+<hr>
+
+<h2>flex row</h2>
+<div class="d-flex">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+
+<h2>flex-row-revers</h2>
+
+<div class="d-flex flex-row-revers">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+<h2>flex-center</h2>
+
+<div class="d-flex justfy-content-center">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+
+<h2>space between</h2>
+
+<div class="d-flex justfy-content-space-between">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+<h2>space araund</h2>
+
+<div class="d-flex justfy-content-space-araund">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+
+
+<h2>flex-column</h2>
+<div class="d-flex flex-column">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+
+
+<h2>column-reverse</h2>
+<div class="d-flex column-reverse">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+
+<h2>initial</h2>
+<div class="d-flex initial">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+<h2>inherit</h2>
+<div class="d-flex inherit">
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+    <div class="box-100-bg-blue-border2"></div>
+</div>
+<hr>
+
+</body>
+</html>
